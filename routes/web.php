@@ -11,5 +11,5 @@
 |
 */
 
-Route::get('/', 'CooperatorController@index')->name('index');
+Route::get('/', 'WorkerController@index')->name('index');
 
